@@ -16,21 +16,21 @@ export class Directory extends Component {
                   imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
                   id: 1,
                   linkUrl: 'shop/hats',
-                  urlLink: 'Hats'
+                  linkUrl: 'Hats'
                 },
                 {
                   title: 'jackets',
                   imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
                   id: 2,
                   linkUrl: 'shop/jackets',
-                  urlLink: ''
+                  linkUrl: ''
                 },
                 {
                   title: 'sneakers',
                   imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
                   id: 3,
                   linkUrl: 'shop/sneakers',
-                  urlLink: ''
+                  linkUrl: ''
                 },
                 {
                   title: 'womens',
@@ -38,7 +38,7 @@ export class Directory extends Component {
                   size: 'large',
                   id: 4,
                   linkUrl: 'shop/womens',
-                  urlLink: ''
+                  linkUrl: ''
                 },
                 {
                   title: 'mens',
@@ -46,7 +46,7 @@ export class Directory extends Component {
                   size: 'large',
                   id: 5,
                   linkUrl: 'shop/mens',
-                  urlLink: ''
+                  linkUrl: ''
                 }
               ]
               
