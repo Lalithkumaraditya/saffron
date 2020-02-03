@@ -4,6 +4,8 @@ import ShopPage from '../src/components/pages/shop/shop.component';
 
 import "./App.css";
 import {Switch,Route} from 'react-router-dom';
+import Header from "./components/header/header.component";
+
 
 const HatsPage = ()=>(
   <div>
@@ -14,6 +16,7 @@ const HatsPage = ()=>(
 function App() {
   return(
     <div>
+    <Header />
     <Switch>
     <Route exact path="/" component={HomePage} />
     <Route  path="/shop" component={ShopPage} />
