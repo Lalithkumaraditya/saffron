@@ -9,7 +9,7 @@ import  { Component } from 'react'
 
 const SignInAndSignUpPage = () => (
     <div className='sign-in-and-sign-up'>
-<SignIn />
+     <SignIn />
     </div>
 )
 export default SignInAndSignUpPage;
